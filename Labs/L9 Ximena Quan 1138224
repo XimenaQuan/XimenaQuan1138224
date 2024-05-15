@@ -1,0 +1,54 @@
+print ("Ejercicio 1")
+n1=int(input("Ingrese el 1er número \n"))
+n2=int(input("Ingrese el segundo número \n"))
+dr=n1/n2
+de=n1//n2
+dm=n1%n2 
+print(n1,"/", n2, "=", dr)
+print(n1,"//", n2, "=", de)
+print(n1,"%", n2, "=", dm)
+s=n1+n2
+r=n1-n2
+m=n1*n2
+print(n1,"+", n2, "=", s)
+print(n1,"-", n2, "=", r)
+print(n1,"*", n2, "=", m)
+
+print("Ejercicio 2")
+i=n1==n2
+d=n1!=n2 
+ma=n1<n2
+me=n1>n2
+print(n1,"==", n2, "=", i)
+print(n1,"!=", n2, "=", d)
+print(n1,"<", n2, "=", ma)
+print(n1,">", n2, "=", me)
+
+print("Ejercicio 3")
+a=int(input("Ingrese un valor de a \n"))
+b=int(input("Ingrese un valor de b \n"))
+c=int(input("Ingrese un valor de c \n"))
+print(a+b+c)
+print(a*(b+c))
+print(a/(b+c))
+print(((3*a)+(2*b))/(c*c))
+
+print("Actividad 3: Ejercicio 1")
+m1=int(input("Ingrese una cantidad de metros \n"))
+km=m1/1000
+mi=km/1.69
+ft=m1*3.28
+plg= ft *12 
+print(m1, "es igual a", km, "km")
+print(m1, "es igual a", mi, "millas")
+print(m1, "es igual a", ft, "pies")
+print(m1, "es igual a", plg, "plg")
+
+print("Actividad 3: Ejercicio 2")
+m2=int(input("Ingrese una cantidad de metros \n"))
+y=m2//0.9144
+mody=m2%0.9144
+ft2= mody//0.33333
+modft2=ft2%12
+in2= modft2 // 12
+print(m2, "es igual a", y, "yardas", ft2, "ft y", in2, "plg")
